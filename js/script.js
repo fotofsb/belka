@@ -1,3 +1,6 @@
 $(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
+		function changeBoxColor(event) {
+		$(this).toggleClass('selected');
+	}
+	$('.checked').on('click', changeBoxColor);
 });

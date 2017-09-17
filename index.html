@@ -19,15 +19,14 @@
     <div class="page-header__contacts">
       <ul class="page-header__contacts-list">
         <li class="page-header__contacts-item page-header__contacts-item--clock">24 часа</li>
-        <li class="page-header__contacts-item page-header__contacts-item--phone"><a href="tel:8 (812) 999-77-88"></a>8 (812) 999-77-88</li>
+        <li class="page-header__contacts-item page-header__contacts-item--phone"><a href="tel:8 (812) 999-77-88">8 (812) 999-77-88</a></li>
         <li class="page-header__contacts-item page-header__contacts-item--address">Выборгское ш.,220</li>
       </ul>
-      <div class="clear"></div>
+      <button class="page-header_toggler">
+        <span>&#9776;</span>
+      </button>
     </div>
 
-    <button class="page-header_toggler">
-      <span>&#9776;</span>
-    </button>
 
     <div class="page-header__main container">
       <a href="" class="logo"><img src="img/logo.png" alt="Logo-Belka"></a>
@@ -234,7 +233,7 @@ Cкалолазы смогут найти подробную схему всех
           <img src="img/question.png" alt="">
           <p>На территории скалодрома всегда находится инструктор, который готов ответить на любой Ваш вопрос!</p>
         </div> 
-      </div>   
+      </div>  
     </div>    
   </section>
 
@@ -249,11 +248,217 @@ Cкалолазы смогут найти подробную схему всех
   </section>
 
 <!-- price -->
-  <section class="bcg-footer">
+  <section class="bcg-footer container">
     <section class="price">
       <div class="price__title">
         <h2>ЦЕНЫ</h2>
       </div>
+<!-- table-xs-view-320px -->
+      <div class="table__xs">
+        <table class="price__choice">
+          <colgroup>
+            <col width="270">
+            <col width="50">
+          </colgroup>
+          <tbody>
+            <tr>
+              <td>Выберите возраст</td>
+              <td><a href="#"><span class="price__choice--arrow"></span></a></td>
+            </tr>
+            <tr>
+              <td>Выберите место</td>
+              <td><a href="#"><span class="price__choice--arrow"></span></a></td>
+            </tr>
+            <tr>
+              <td>Выберите длительность</td>
+              <td><a href="#"><span class="price__choice--arrow"></span></a></td>
+            </tr>   
+          </tbody>
+        </table>
+
+        <table class="price__info">
+          <colgroup>
+            <col width="230">
+            <col width="90">
+          </colgroup>
+          <tbody>
+            <tr>
+              <td>Стоимость абонемента</td>
+              <td>0 р.</td>
+            </tr>
+         </tbody>
+        </table>
+    
+        <table class="price__add-info">
+          <colgroup>
+            <col width="230">
+            <col width="90">
+          </colgroup>
+          <tbody>
+            <tr>
+              <td>Персональный оператор парка</td>
+              <td>600 р./час</td>
+            </tr>
+             <tr>
+              <td>Каждый дополнительный час</td>
+              <td>500 р.</td>
+            </tr>
+         </tbody>
+        </table>
+        <div class="price__btn--location">
+          <a href="" class="price__btn">Купить билет</a>
+        </div>
+        <div class="price__btn-technical-info-location">
+          <a href="#" class="price__btn-technical-info">Техника безопасности (PDF)</a>
+        </div>
+      </div>
+
+<!-- table-md-view-768px -->
+    <div class="table__md">
+      <table class="price__table-md">
+        <colgroup>
+          <col width="360">
+          <col width="190">
+          <col width="190">    
+        </colgroup>
+        <tbody>
+          <tr class="color-one">
+            <td></td>
+            <td>ДЕТСКИЙ от 4 лет</td>
+            <td>ВЗРОСЛЫЙ от 7 лет</td>
+          </tr>
+          <tr class="color-two">
+            <td></td>
+            <td colspan="2" class="">Прохождение препятствий парка <strong>3 часа</strong></td>
+          </tr>
+          <tr>
+            <td class="color-one">Все трассы<br>Веревочный парк + скалодром</td>
+            <td>2200 р</td>
+            <td>2500 р</td>
+          </tr>
+          <tr>
+            <td class="color-one">Скалодром</td>
+            <td>1000 р</td>
+            <td>1300 р</td>
+          </tr>
+          <tr>
+            <td class="color-one">Веревочный парк</td>
+            <td>1200 р</td>
+            <td>1500 р</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr class="color-two">
+            <td></td>
+            <td colspan="2" class="">Прохождение препятствий парка <strong>12 часа</strong></td>
+          </tr>
+          <tr>
+            <td class="color-one">Все трассы<br>Веревочный парк + скалодром</td>
+            <td>5500 р</td>
+            <td>6000 р</td>
+          </tr>
+          <tr>
+            <td class="color-one">Скалодром</td>
+            <td>3000 р</td>
+            <td>3500 р</td>
+          </tr>
+          <tr>
+            <td class="color-one">Веревочный парк</td>
+            <td>4000 р</td>
+            <td>4500 р</td>
+          </tr>
+          <tr>
+            <td colspan="3">Каждый дополнительный час + 500 р</td>
+          </tr>
+           <tr class="color-two">
+            <td colspan="2">Персональный оператор парка</td>
+            <td>600 р/час</td>
+          </tr>
+        </tbody>
+      </table>
+        <div class="price__table--location-md">
+          <a href="" class="price__btn">Купить билет</a>
+          <a href="#" class="price__btn-technical-info">Техника безопасности (PDF)</a>
+        </div>
+      </div>
+    </div>
+
+<!-- table-xl-view-1280px -->
+    <div class="table__xl">
+      <table class="price__table-lx">
+        <colgroup>
+          <col width="400">
+          <col width="400">
+          <col width="400">    
+        </colgroup>
+        <tbody>
+          <tr>
+            <td></td>
+            <td class="color-one">ДЕТСКИЙ от 4 лет</td>
+            <td class="color-one">ВЗРОСЛЫЙ от 7 лет</td>
+          </tr>
+          <tr class="color-two">
+            <td></td>
+            <td colspan="2" class="">Прохождение препятствий парка <strong>3 часа</strong></td>
+          </tr>
+          <tr>
+            <td class="color-one">Все трассы<br>Веревочный парк + скалодром</td>
+            <td class="checked">2200 р</td>
+            <td class="checked">2500 р</td>
+          </tr>
+          <tr>
+            <td class="color-one">Скалодром</td>
+            <td class="checked">1000 р</td>
+            <td class="checked">1300 р</td>
+          </tr>
+          <tr>
+            <td class="color-one">Веревочный парк</td>
+            <td class="checked">1200 р</td>
+            <td class="checked">1500 р</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr class="color-two">
+            <td></td>
+            <td colspan="2" class="">Прохождение препятствий парка <strong>12 часа</strong></td>
+          </tr>
+          <tr>
+            <td class="color-one">Все трассы<br>Веревочный парк + скалодром</td>
+            <td class="checked">5500 р</td>
+            <td class="checked">6000 р</td>
+          </tr>
+          <tr>
+            <td class="color-one">Скалодром</td>
+            <td class="checked">3000 р</td>
+            <td class="checked">3500 р</td>
+          </tr>
+          <tr>
+            <td class="color-one">Веревочный парк</td>
+            <td class="checked">4000 р</td>
+            <td class="checked">4500 р</td>
+          </tr>
+          <tr>
+            <td colspan="3">Каждый дополнительный час + 500 р</td>
+          </tr>
+           <tr class="color-two">
+            <td colspan="2">Персональный оператор парка</td>
+            <td>600 р/час</td>
+          </tr>
+        </tbody>
+      </table>
+        <div class="price__table--location-xl">
+          <a href="" class="price__btn">Купить билет</a>
+          <a href="#" class="price__btn-technical-info">Техника безопасности (PDF)</a>
+        </div>
+      </div>
+    </div>
+
     </section>
 
   <!-- review -->
@@ -296,13 +501,13 @@ Cкалолазы смогут найти подробную схему всех
               </div>
             <p class="review__item--comment">Парк «BELKA» - отличная альтернатива наскучившим походам в кино и кафе.</p>
           </div>
-
         </div>
       </div>
     </section>
   </section>
 
   <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/script.js"></script>
   <script src="owlcarousel/owl.carousel.min.js"></script>
 
   <script>
@@ -372,13 +577,35 @@ Cкалолазы смогут найти подробную схему всех
       });
     });
   </script>
-  
 </body>
 
 <!-- footer -->
 
 <footer class="page-footer container">
-
+  <div class="footer__maps">
+<!--     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1997.5056979159747!2d30.31615231581455!3d59.95693466758487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963142060d3cf9%3A0x2ecffd4d161cab80!2z0JrRgNC-0L3QstC10YDQutGB0LrQuNC5INC_0YAuLCAyMywg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5NzEwMQ!5e0!3m2!1sru!2sru!4v1505486855162" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+  </div>
+  <div class="footer__info">
+    <ul class="footer__info-contacts">
+      <li>Выборгское ш.,220</li>
+      <li>8 (812) 999-77-88</li>
+    </ul>
+    <ul class="footer__info-menu">
+      <li><a href="">ТРАССЫ</a></li>
+      <li><a href="">АКЦИИ</a></li>
+      <li><a href="">ЦЕНЫ</a></li>
+      <li><a href="">ОТЗЫВЫ</a></li>
+      <li><a href="">КОНТАКТЫ</a></li>
+    </ul>
+    <ul class="footer__info-social">
+      <li><a href="#"><img src="img/twitter.png" alt="twitter"></a></li>  
+      <li><a href="#"><img src="img/vk-footer.png" alt="vk"></a></li>
+      <li><a href="#"><img src="img/instagram-footer.png" alt="instagram"></a></li>      
+    </ul>
+    <div class="footer__btn-up">
+      <a href="#" class="circle"><span></span></a>
+    </div>
+  </div>
 </footer>
 
 </html>
